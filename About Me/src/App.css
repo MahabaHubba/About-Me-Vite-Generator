@@ -18,11 +18,19 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Header Page CSS */
 .headerDiv-text{
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
+
+/* NavBar Page CSS */
+
+/* About Me Page CSS */
+
+
+/* Portfolio Page CSS */
 
 @keyframes logo-spin {
   from {

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 export default function NavOptions () {
     return (
         <Navbar
-        links = {[
+        link = {[
             <Link key={1} className = "nav-link text-light" to='/' >
             About Me
             </Link>,
