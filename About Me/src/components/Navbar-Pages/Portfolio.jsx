@@ -1,5 +1,9 @@
+import NavOptions from "../Navbar"
 export default function Portfolio() {
     return(
-        <h1> POrtfolio </h1>
+        <>
+        <NavOptions/>
+        <h1>hello welcome to Portfolio</h1>
+       </>
     )
 }

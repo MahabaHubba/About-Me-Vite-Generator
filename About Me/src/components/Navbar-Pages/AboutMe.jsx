@@ -1,5 +1,10 @@
+import NavOptions from "../Navbar"
 export default function AboutMe() {
+
     return(
-        <h1> HI </h1>
+        <>
+        <NavOptions/>
+        <h1>hello welcome to about Me</h1>
+       </>
     )
 }

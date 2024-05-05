@@ -26,6 +26,27 @@
 }
 
 /* NavBar Page CSS */
+* {
+  box-sizing: border-box;
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Align items vertically center */
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  padding-left: 19px;
+}
+
+.logo-text img {
+  width: 40%;
+  padding: 8px;
+}
 
 /* About Me Page CSS */
 
