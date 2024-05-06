@@ -1,0 +1,12 @@
+.aboutme {
+    margin-top: 43px;
+    background-color: lightcoral;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    border-radius: 10px;
+    /* border-radius: 45px; */
+}
