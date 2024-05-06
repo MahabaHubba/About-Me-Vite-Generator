@@ -4,7 +4,7 @@
     /* align-items: center; */
     background-color: lightpink;
     color: green;
-    padding: 3px;
+    /* padding: 3px; */
     margin: 10 px;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 21px;
@@ -18,7 +18,7 @@
     /* align-items: center; */
     background-color: lightpink;
     color: green;
-    padding: 3px;
+    /* padding: 3px; */
     margin: 10 px;
     font-family: 'Tilt Neon', sans-serif;
     border-bottom: 2px solid black;
@@ -36,7 +36,7 @@
     display: flex;
     /* justify-content: end; */
     font-size: 21px;
-    padding: 10px;
+    /* padding: 10px; */
     border: 5px 5px 5px 5px;
     margin-right: 10px;
     color: green;
