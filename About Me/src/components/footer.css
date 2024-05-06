@@ -1,0 +1,35 @@
+.logos {
+    border: 3px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    box-shadow: 2px 3px grey;
+  }
+  
+  .logos img {
+    width: 45px;
+    margin: 9px;
+    box-shadow: 2px 2px #0d0304;
+    border-radius: 13px;
+    transition: box-shadow 0.3s, transform 0.4s;
+  }
+  
+  .logos img:hover {
+    box-shadow: 3px 3px #0d0304;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .logos img:active,
+  .logos img:focus {
+    box-shadow: 1px 1px #0d0304; 
+    transform: scale(0.95);
+  }
+  
+  .contact-details {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ebbab9;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 20px;
+  }
