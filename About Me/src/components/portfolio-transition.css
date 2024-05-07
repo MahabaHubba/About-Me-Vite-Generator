@@ -1,0 +1,16 @@
+.arrow-left,
+.arrow-right {
+    font-size: 20px; 
+    color: aliceblue; 
+    cursor: pointer; 
+    margin: 0 10px; 
+  }
+
+  .arrow-left, .arrow-right :hover {
+    color: #cc2936; 
+    transform: scale(1.05);
+  }
+
+  .project {
+    border: 6px double #ebbab9;
+  }
