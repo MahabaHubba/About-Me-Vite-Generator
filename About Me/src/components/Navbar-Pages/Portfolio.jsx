@@ -1,6 +1,6 @@
 import NavOptions from "../Navbar"
 import Footer from "../Footer"
-import '../portfolio.css'
+// import '../portfolio.css'
 import PortfolioTransition from "../portfolio-transition"
 
 export default function Portfolio() {
@@ -14,9 +14,9 @@ export default function Portfolio() {
                 <div class="boxborder bg-light border mb-4">
                     <h5 class="text-center">Portfolio</h5>
                 </div>
-
-
+                <div className="img" class="boxborder bg-light border mb-4">
              <PortfolioTransition />
+             </div>
         </div>
     </div>
 </div>

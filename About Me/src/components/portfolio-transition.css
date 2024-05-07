@@ -6,11 +6,19 @@
     margin: 0 10px; 
   }
 
-  .arrow-left, .arrow-right :hover {
+  .arrow-left, :hover {
     color: #cc2936; 
-    transform: scale(1.05);
+    
   }
 
-  .project {
+  .arrow-right, :hover {
+    color: #cc2936; 
+   
+  }
+  /* .project {
     border: 6px double #ebbab9;
+  } */
+
+  .pics {
+    height:10px;
   }
