@@ -6,7 +6,7 @@ function PortfolioTransition() {
     const images = [
         { src: "./images/ichooseyou.png", alt: "pokemon", link: "https://github.com/AdamIsitmez/I-Choose-You" },
         { src: "./images/wagerless.png", alt: "project-2", link: "https://github.com/Y1va/Wagerless" },
-        // Add more images here as needed
+        { src: "./images/Mongo.jpg", alt: "Mongo", link: "https://github.com/MahabaHubba/MongoDbxMongoose" }
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
