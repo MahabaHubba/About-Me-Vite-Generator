@@ -62,7 +62,7 @@ export default function Contact() {
             </textarea>
             </div>
             <div>
-                
+                <button className="submitBtn d-flex mx-auto mt-4 shadow" type="submit" >SUBMIT</button>
             </div>
                 </form>
 
