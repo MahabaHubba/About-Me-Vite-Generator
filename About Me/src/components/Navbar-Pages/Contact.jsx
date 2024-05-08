@@ -26,7 +26,13 @@ export default function Contact() {
     return(
         <>
          <NavOptions/>
-         <h1>hello welcome to my contact</h1>
+         <div className="d-flex flex-column align-items-center">
+            <div className="align-items-center justify-content-center">
+                <h1 className="ms-3 mt-2">Contact</h1>
+
+            </div>
+
+         </div>
 
          <Footer />
         </>
