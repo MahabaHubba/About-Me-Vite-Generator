@@ -29,8 +29,30 @@ export default function Contact() {
          <div className="d-flex flex-column align-items-center">
             <div className="align-items-center justify-content-center">
                 <h1 className="ms-3 mt-2">Contact</h1>
+            </div>
+            <form on Submit = {submitContact}>
+            <div className = 'd-flex flex-column align-items-start'>
+                <label htmlFor="name">Name</label>
+                <input
+                type="text"
+                id="name"
+                name="name"
+                value={contactData.name}
+                onChange={contactEvent}
+                required />
+            </div>
+            <div className="d-flex flex-column align-items-start mt-3">
+                <label htmlFor="email">Email</label>
+                <input
+                type="text"
+                id="email"
+                name='email'
+                value={contactData.email}
+                onChange={contactEvent}
+                required />
 
             </div>
+                </form>
 
          </div>
 
