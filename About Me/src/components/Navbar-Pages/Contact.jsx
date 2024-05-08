@@ -50,7 +50,19 @@ export default function Contact() {
                 value={contactData.email}
                 onChange={contactEvent}
                 required />
-
+            </div>
+            <div className="d-flex flex-column align-items-start mt-3">
+            <label htmlFor="comment">Comment</label>
+            <textarea
+            id="comment"
+            name='comment'
+            value={contactData.comment}
+            onChange={contactEvent}
+            required>
+            </textarea>
+            </div>
+            <div>
+                
             </div>
                 </form>
 
