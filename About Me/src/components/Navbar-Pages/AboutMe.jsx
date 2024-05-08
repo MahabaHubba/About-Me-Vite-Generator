@@ -8,6 +8,7 @@ export default function AboutMe() {
         <>
 
         <NavOptions/>
+        <iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/TOEIAnimationUK-goku-dragon-ball-super-ultra-instinct-CY3A9zOlZR8uhFbeok"></a></p>
 
         <div class="aboutme">
     <div class="container mt-5">
