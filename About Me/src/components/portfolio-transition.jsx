@@ -4,10 +4,8 @@ import './portfolio-transition.css';
 
 function PortfolioTransition() {
     const images = [
-        { src: "./images/ichooseyou.png", alt: "pokemon" },
-        { src: "./images/wagerless.png", alt: "project-2" },
-        { src: "./images/Pikachu.jpg", alt: "test" }
-        
+        { src: "./images/ichooseyou.png", alt: "pokemon", link: "https://github.com/AdamIsitmez/I-Choose-You" },
+        { src: "./images/wagerless.png", alt: "project-2", link: "https://github.com/Y1va/Wagerless" },
         // Add more images here as needed
     ];
 
@@ -23,7 +21,9 @@ function PortfolioTransition() {
 
     return (
         <div className='project d-flex flex-column align-items-center ms-3'>
-            <img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt} className="mb-3 shadow" />
+            <a href={images[currentImageIndex].link} target="_blank" rel="noopener noreferrer">
+                <img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt} className="mb-3 shadow" />
+            </a>
             <div className='d-flex'>
                 <button onClick={previousImage} className='btn btn-link'>
                     <FaArrowLeft className="arrow-left" />

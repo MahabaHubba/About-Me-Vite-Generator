@@ -27,6 +27,9 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/mohibul-haque-14782020b/" target="_blank"  title="LinkedIn" rel="noreferrer">
               <img src="./images/linkedin.png" alt="linkedin logo" />
             </a>
+            <a href="./images/Md-Mohibul-Haque-Resume.pdf" target="_blank"  title="Resume" rel="noreferrer">
+              <img src="./images/resume.png" alt="Resume logo" />
+            </a>
           </div>
     
           {showEmail && (

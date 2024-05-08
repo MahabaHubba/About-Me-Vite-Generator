@@ -26,6 +26,8 @@ export default function Contact() {
     return(
         <>
          <NavOptions/>
+
+         <iframe src="https://giphy.com/embed/2OHYMJGnGoiVjVg55P" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/AlphaESS-cat-cute-thanks-2OHYMJGnGoiVjVg55P"></a></p>
          <div className="d-flex flex-column align-items-center">
             <div className="align-items-center justify-content-center">
                 <h1 className="ms-3 mt-2">Contact</h1>
