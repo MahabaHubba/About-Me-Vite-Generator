@@ -4,12 +4,12 @@ import './portfolio-transition.css';
 
 function PortfolioTransition() {
     const images = [
-        { src: "public/ichooseyou.png", alt: "pokemon", link: "https://github.com/AdamIsitmez/I-Choose-You" },
-        { src: "public/wagerless.png", alt: "project-2", link: "https://github.com/Y1va/Wagerless" },
-        { src: "public/Mongo.jpg", alt: "Mongo", link: "https://github.com/MahabaHubba/MongoDbxMongoose" },
-        { src: "public/PWA-Logo.jpg", alt: "PWA", link: "https://github.com/MahabaHubba/PWA-Text-Generator" },
-        { src: "public/SVG.jpg", alt: "SVG", link: "https://github.com/MahabaHubba/Generate-SVG-Logo" },
-        { src: "public/Insomnia.jpg", alt: "Insomnia", link: "https://github.com/MahabaHubba/Shopping-Router-Generator" }
+        { src: "ichooseyou.png", alt: "pokemon", link: "https://github.com/AdamIsitmez/I-Choose-You" },
+        { src: "wagerless.png", alt: "project-2", link: "https://github.com/Y1va/Wagerless" },
+        { src: "Mongo.jpg", alt: "Mongo", link: "https://github.com/MahabaHubba/MongoDbxMongoose" },
+        { src: "PWA-Logo.jpg", alt: "PWA", link: "https://github.com/MahabaHubba/PWA-Text-Generator" },
+        { src: "SVG.jpg", alt: "SVG", link: "https://github.com/MahabaHubba/Generate-SVG-Logo" },
+        { src: "Insomnia.jpg", alt: "Insomnia", link: "https://github.com/MahabaHubba/Shopping-Router-Generator" }
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
