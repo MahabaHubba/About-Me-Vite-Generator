@@ -66,4 +66,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Go to the following link: http://localhost:3000/ to see the application.
 
 ## Deployed-Link
-Deployed -Link:
+Deployed -Link: https://main--mahabahubba1.netlify.app/portfolio 
