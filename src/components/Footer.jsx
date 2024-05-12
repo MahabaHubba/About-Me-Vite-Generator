@@ -14,21 +14,21 @@ export default function Footer() {
         <footer className="p-4">
           <div className="logos d-flex justify-content-center">
               <img 
-                src="./images/envelope.png" 
+                src="public/envelope.png" 
                 alt="email logo" 
                 onClick={() => toggleContact('email')}  
               />
             <a href="https://github.com/MahabaHubba" target="_blank" title="Github"  rel="noreferrer">
-              <img src="images/github.png" alt="github logo" />
+              <img src="public/github.png" alt="github logo" />
             </a>
             <a href="https://www.instagram.com/mahabahubba/" target="_blank"  title="Instagram" rel="noreferrer">
-              <img src="images/instagram.png" alt="instagram logo" />
+              <img src="public/instagram.png" alt="instagram logo" />
             </a>
             <a href="https://www.linkedin.com/in/mohibul-haque-14782020b/" target="_blank"  title="LinkedIn" rel="noreferrer">
-              <img src="images/linkedin.png" alt="linkedin logo" />
+              <img src="public/linkedin.png" alt="linkedin logo" />
             </a>
             <a href="./images/Md-Mohibul-Haque-Resume.pdf" target="_blank"  title="Resume" rel="noreferrer">
-              <img src="images/resume.png" alt="Resume logo" />
+              <img src="public/resume.png" alt="Resume logo" />
             </a>
           </div>
     
